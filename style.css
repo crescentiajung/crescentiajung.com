@@ -10,7 +10,7 @@
   --accent-mid: #f4a6c0;  /* (theme) dots and photo ring */
   --line: #f3dbe4;        /* (theme) dividers */
   --focus: #6b4fd8;
-  --max: 44rem;
+  --max: 62rem;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -143,11 +143,11 @@ nav a:hover { background: var(--accent-soft); }
   padding: 3rem 0 1rem;
 }
 @media (min-width: 640px) {
-  .hero { grid-template-columns: 13rem 1fr; gap: 2.5rem; }
+  .hero { grid-template-columns: 16rem 1fr; gap: 3.5rem; }
 }
 .photo {
-  width: 13rem;
-  height: 13rem;
+  width: 16rem;
+  height: 16rem;
   border-radius: 50%;
   object-fit: cover;
   color: transparent;
