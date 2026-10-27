@@ -1,28 +1,28 @@
 /* Crescentia Jung — site styles
-   To switch to the blue theme, swap the four color values marked (theme). */
+   Colors are drawn from the blue background of photo.jpg. */
 
 :root {
   --bg: #ffffff;
-  --ink: #2e2a2c;
-  --muted: #645c60;       /* 6.3:1 on white */
-  --accent: #b8406f;      /* (theme) links and icons, 5.4:1 on white */
-  --accent-soft: #fde4ec; /* (theme) pill fills */
-  --accent-mid: #f4a6c0;  /* (theme) dots and photo ring */
-  --line: #f3dbe4;        /* (theme) dividers */
-  --focus: #6b4fd8;
+  --ink: #2a2f33;
+  --muted: #5a646b;       /* 6.0:1 on white */
+  --accent: #2c6587;      /* (theme) links, 6.3:1 on white */
+  --accent-soft: #e3f0f7; /* (theme) pill fills, sampled from photo background */
+  --accent-mid: #a9d0e4;  /* (theme) dots and photo ring */
+  --line: #dcebf3;        /* (theme) dividers */
+  --focus: #2c6587;
   --max: 62rem;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --bg: #1d1a1c;
-    --ink: #f4eef1;
-    --muted: #c2b8bd;
-    --accent: #f5a9c4;
-    --accent-soft: #3b2a32;
-    --accent-mid: #c76b8e;
-    --line: #3a3036;
-    --focus: #b9a8ff;
+    --bg: #161c20;
+    --ink: #eef3f6;
+    --muted: #b3bec5;
+    --accent: #a3d2ea;
+    --accent-soft: #22323c;
+    --accent-mid: #4f7f99;
+    --line: #2a3640;
+    --focus: #a3d2ea;
   }
 }
 
